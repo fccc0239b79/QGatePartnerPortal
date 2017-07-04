@@ -1,0 +1,97 @@
+.detailsContainer {
+      display: flex;
+      flex-direction: column;
+      height: 70%;
+      border: 2px solid;
+      margin: 20px;
+      font-size: 16px;
+}
+
+.aName {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      justify-content: center;
+      color: white;
+      background: #0060a8;
+      background: -webkit-linear-gradient(to bottom, #0074cc 14%, #0060a8 96%);
+      background: -o-linear-gradient(to bottom, #0074cc 14%, #0060a8 96%);
+      background: -moz-linear-gradient(to bottom, #0074cc 14%, #0060a8 96%);
+      background: linear-gradient(to bottom, #0074cc 14%, #0060a8 96%);
+}
+
+.aName > h5 {
+      margin: 0 0 0 20px;
+      font-weight: lighter;
+      font-size: 16px;
+}
+
+.aName > .markName {
+      flex: 1;
+      font-weight: bold;
+      margin: 0 0 0 30px;
+}
+
+.aName > .accountOptions {
+      flex-direction: row;
+      align-self: flex-end;
+      margin: 0 0 0 10px;
+      text-decoration: underline;
+}
+
+.aName > .accountOptions > a{
+      color: white;
+}
+
+.aAddress {
+      display: flex;
+      padding: 20px;
+      margin-top: 10px;
+      align-items: flex-start;
+      justify-content:  flex-start;
+}
+
+.aAddress > h5 {
+      margin: 0 0 0 20px;
+      font-weight: lighter;
+      font-size: 16px;
+}
+
+.aAddress > .addressDetails {
+      margin-left: 5em;
+      line-height: 1em;
+      font-weight: bolder;
+}
+
+
+@media screen and (max-width: 410px) {
+
+      .detailsContainer {
+            font-size: 13px;
+            margin: 20px;
+      }
+
+      .aName > .markName {
+            margin: 0 30px 0 20px;
+      }
+      .aName > h5 {
+            margin: 0;
+      }
+
+      .aAddress > h5 {
+            margin: 0;
+      }
+
+      .aAddress > .addressDetails {
+            margin-left: 2em;
+      }
+
+}
+
+@media screen and (max-width: 500px) and (min-width: 410px) {
+
+      .detailsContainer {
+            font-size: 13px;
+      }
+
+}
