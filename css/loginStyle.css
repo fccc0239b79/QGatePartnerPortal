@@ -111,9 +111,10 @@ button {
 
 
 @media screen and (max-width: 1740px) and (min-width: 800px){
+
       .loginContainer {
             margin-top: 17em;
-            width: 30%;
+            width: 50%;
 
       }
 
